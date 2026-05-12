@@ -1,7 +1,7 @@
 from config import LEVEL_UP_THRESHOLDS, BUSINESS_UNLOCK, MAX_FACTORIES_PER_CITY, MAX_SHOPS_PER_CITY, \
     MAX_AIRPORTS_PER_CITY
 import db
-
+INCOME_UPDATE_INTERVAL = 60
 
 def get_level_from_earned(total_earned: int) -> int:
     level = 1
